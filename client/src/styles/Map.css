@@ -1,0 +1,193 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.left {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.center {
+  width: 50%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.right {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 2.5% 0% 2.5%;
+  background-color: lightgray;
+  overflow-y: hidden;
+}
+
+/* left componenent - search form */
+.search-form-container {
+  width: 80%;
+  height: 40%;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+/* search form */
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  font-weight: bold;
+  color: #212529;
+}
+
+.form-btn {
+  font-size: 1rem;
+  color: #f1f3f5;
+  border-radius: 1rem;
+  background-color: #4c6ef5;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #364fc7;
+  transition: 0.7s;
+}
+
+/* Map Header */
+.map-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+
+/* nearby btn */
+
+.nearby-btn {
+  font-size: 1rem;
+  color: #f1f3f5;
+  border-radius: 1rem;
+  background-color: #845ef7;
+  cursor: pointer;
+}
+
+.nearby-btn:hover {
+  background-color: #6741d9;
+  transition: 0.7s;
+}
+
+/* my location button */
+
+.my-location-icon {
+  color: #343a40;
+  cursor: pointer;
+}
+
+.my-location-icon:hover {
+  color: #ffd43b;
+}
+
+/* marker */
+.bird-icon {
+  color: #da77f2;
+  cursor: pointer;
+}
+
+.bird-icon:hover {
+  color: #9c36b5;
+  transition: 0.7s;
+}
+
+.user-icon {
+  color: #2f9e44;
+}
+
+.hot-spot-icon {
+  color: #ed4c67;
+  cursor: pointer;
+}
+
+.hot-spot-icon:hover {
+  color: #6f1e51;
+  transition: 0.7s;
+}
+/* Popup */
+
+.mapboxgl-popup-content {
+  background-color: #e6fcf5;
+}
+
+.popup p {
+  color: #495057;
+}
+
+.popup-field {
+  font-weight: bold;
+  color: #212529;
+}
+
+.popup-btn {
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: #1289a7;
+  color: #f1f3f5;
+}
+
+.popup-btn:hover {
+  background-color: #0652dd;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.popup-input {
+  margin-left: 1rem;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-field-size {
+  width: 50%;
+}
+
+.add-form {
+  gap: 1rem;
+}
+
+.add-form-title {
+  text-align: center;
+}
+
+.add-btn {
+  align-self: center;
+}
+
+/* edit form */
+.sighting-popup-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.danger-btn {
+  background-color: #fa5252;
+}

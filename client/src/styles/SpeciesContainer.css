@@ -1,0 +1,32 @@
+.wrapper{
+    background: whitesmoke;
+    width: 80%;
+    height: 35%;
+}
+
+.title {
+    height: 16%; 
+    border-bottom-color: blue; 
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    height: 84%; 
+    overflow-y: scroll; 
+}
+
+.list{
+    height: 84%;
+}
+
+.lock {
+    height: 84%;
+    overflow-y: 'hidden';
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+}
